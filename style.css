@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff7a85;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio p {
+    font-size: 0.9rem;
+  }
+  
+  .portfolio h1 {
+    font-size: 2rem;
+    margin-top: 5px;
+  }
+  
+  .portfolio span {
+    font-size: 1rem;
+    color: #00ff00;
+  }
+  
+  .stocks h3 {
+    margin: 10px 0;
+  }
+  
+  .stock-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .stock-card {
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .stock-card.apple {
+    background-color: #333;
+  }
+  
+  .stock-card.mcd {
+    background-color: #ff5555;
+  }
+  
+  .stock-card.fb {
+    background-color: #3b5998;
+  }
+  
+  .my-asset-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff7a85;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 15px 0;
+    cursor: pointer;
+  }
+  
+  .opinion {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  .opinion h4 {
+    color: #ff7a85;
+    margin-bottom: 10px;
+  }
+  
+  .opinion-card {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .opinion-card p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
